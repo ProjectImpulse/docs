@@ -16,11 +16,17 @@
         "tab": "Blog",
         "groups": [
           {
-            "group": "OpenKuberTech",
+            "group": "OpenKuber Tech",
             "pages": [
               "index",
               "quickstart",
               "development"
+            ]
+          },
+          {
+            "group": "Perfin Papers",
+            "pages": [
+              "/Perfin/why-personal-finance.mdx"
             ]
           }
         ]
