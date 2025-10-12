@@ -107,6 +107,11 @@
       "vscode"
     ]
   },
+  "seo": {
+    "metatags": {
+        "og:image": "/images/hero.png"
+    }
+},
   "footer": {
     "socials": {
       "x": "https://x.com/OpenKuber_Sxnk",
