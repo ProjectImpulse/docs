@@ -14,26 +14,49 @@
     "tabs": [
       {
         "tab": "Blog",
+         "pages": [
+              "what",
+              "why",
+              "manifesto"
+            ],
         "groups": [
           {
             "group": "OpenKuber Tech",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "causal"
             ]
           },
           {
             "group": "Perfin Papers",
             "pages": [
-              "/Perfin/why-personal-finance"
+              "/Perfin/why-personal-finance",
+              "/Perfin/what-is-AA",
+              "/Perfin/india-paradox",
+              "/Perfin/buffet-spectrum"
             ]
           }
         ]
       },
       {
         "tab": "Documentation",
-        "groups": []
+        "groups": [
+          {
+            "group": "Sheets Add-on",
+            "pages": [
+              "/Sheets-docs/plugin",
+              "/Sheets-docs/write",
+              "/Sheets-docs/graphs",
+              "/Sheets-docs/portfolio",
+              "/Sheets-docs/strategy"
+            ]
+          },
+          {
+            "group": "Console",
+            "pages": [
+              "/Console/soon"
+            ]
+          }
+        ]
       }
     ],
     "global": {
