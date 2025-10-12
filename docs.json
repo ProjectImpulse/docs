@@ -14,16 +14,13 @@
     "tabs": [
       {
         "tab": "Blog",
-         "pages": [
+        "groups": [
+           {
+            "group": "Who are we",
+            "pages": [
               "what",
               "why",
               "manifesto"
-            ],
-        "groups": [
-          {
-            "group": "OpenKuber Tech",
-            "pages": [
-              "causal"
             ]
           },
           {
@@ -33,6 +30,12 @@
               "/Perfin/what-is-AA",
               "/Perfin/india-paradox",
               "/Perfin/buffet-spectrum"
+            ]
+          },
+          {
+            "group": "OpenKuber Tech",
+            "pages": [
+              "causal"
             ]
           }
         ]
