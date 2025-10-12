@@ -2,6 +2,8 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "OpenKuber",
+  "repo": "https://github.com/ProjectImpulse/docs",
+  "editBranch": "main",
   "colors": {
     "primary":"#2563EB",
     "light":"#60A5FA",
