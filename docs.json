@@ -1,11 +1,12 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "willow",
+  "theme": "mint",
   "name": "OpenKuber",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
     "dark": "#15803D"
+
   },
   "favicon": "/logo-assets-square.png",
   "navigation": {
@@ -84,8 +85,8 @@
     }
   },
   "logo": {
-    "light": "/light.png",
-    "dark": "/dark.png"
+    "light": "/logo/light.png",
+    "dark": "/logo/dark.png"
   },
   "navbar": {
     "links": [
