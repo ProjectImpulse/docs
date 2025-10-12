@@ -84,8 +84,8 @@
     }
   },
   "logo": {
-    "light": "/asahi-openkuber-sq.png",
-    "dark": "/asahi-openkuber-sq.png"
+    "light": "/light.png",
+    "dark": "/dark.png"
   },
   "navbar": {
     "links": [
