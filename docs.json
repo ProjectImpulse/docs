@@ -5,9 +5,9 @@
   "repo": "https://github.com/ProjectImpulse/docs",
   "editBranch": "main",
   "colors": {
-    "primary":"#2563EB",
-    "light":"#60A5FA",
-    "dark":"#1E40AF"
+    "primary": "#2563EB",
+    "light": "#60A5FA",
+    "dark": "#1E40AF"
   },
   "favicon": "/logo-assets-square.png",
   "navigation": {
@@ -22,52 +22,12 @@
               "quickstart",
               "development"
             ]
-          },
-          {
-            "group": "Perfin Papers",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "placeholder1",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "placeholder2",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
           }
         ]
       },
       {
         "tab": "Documentation",
-        "groups": [
-          {
-            "group": "Sheets Add-On",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Web-App",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
+        "groups": []
       }
     ],
     "global": {
@@ -89,6 +49,7 @@
     "light": "/logo/light.png",
     "dark": "/logo/dark.png"
   },
+  "image" : "/images/hero.png",
   "navbar": {
     "links": [
       {
@@ -104,21 +65,20 @@
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/Asahi_OpenKuber",
-      "github": "https://github.com/ProjectImpulse",
       "x": "https://x.com/OpenKuber_Sxnk",
+      "github": "https://github.com/ProjectImpulse",
       "linkedin": "https://linkedin.com/"
     }
   }
