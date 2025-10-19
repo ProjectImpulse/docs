@@ -63,8 +63,12 @@ We formalized our **Causal AI roadmap**, broken into three key steps:
 1. **Data Preparation** — already implemented during plugin setup, now fine-tuned for causal discovery.
 2. **Causal Discovery** — currently being polished and configured for tighter integration.
 
-   ![Whats App Image2025 10 19at5 11 11PM Jpe](/images/WhatsAppImage2025-10-19at5.11.11PM.jpeg)
-3. **Causal Inference** — in planning phase, being mapped out conceptually before implementation.
+   ![Whats App Image2025 10 19at19 43 04 Jpe](/images/WhatsAppImage2025-10-19at19.43.04.jpeg)
+
+   A trading strategy backtest can be viewed as a **causal machine** where every step is a precise causal link, moving information forward through time. It begins with**data formation**  by looking back at the historical price data (e.g., \$t-k\$ to \$t\$) to calculate technical indicators (like RSI or MACD) at the current time, \$t\$. These technical indicators form the inputs for **causal graph discovery**. 
+
+   These variables at time \$t\$ are used to generate a **trading signal** and, subsequently, an **order size**. The most crucial link is the **temporal causality**: the executed trade at \$t\$ is the direct cause that forces a definitive change in the portfolio's state (position, cash, value) at the immediate next timestamp, \$t+1\$. Finally, the portfolio's value at \$t+1\$ is the direct cause of the resulting performance and risk metrics (like **drawdown**) establishing a Directed Acyclic Graph from historical market inputs to future performance outcomes.
+4. **Causal Inference** — in planning phase, being mapped out conceptually before implementation.
 
 Each stage moves us closer to an interpretable intelligence layer that goes **beyond correlation — toward cause and effect.**
 
