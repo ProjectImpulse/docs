@@ -68,6 +68,28 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "Misc.",
+        "groups": [
+          {
+            "group": "Alternatives",
+            "pages": [
+              "/Misc/alternative/1"
+            ]
+          },
+          {
+            "group": "Pricing",
+            "pages": [
+              "/Misc/pricing/1"
+            ]
+          },{
+            "group": "Features",
+            "pages": [
+              "/Misc/feats/1"
+            ]
+          }
+        ]
       }
     ],
     "global": {
