@@ -75,18 +75,24 @@
           {
             "group": "Alternatives",
             "pages": [
-              "/Misc/alternative/1"
+              "/Misc/alternative/openkuber-vs-quantsapp",
+              "/Misc/alternative/openkuber-vs-sheetsfinance-india",
+              "/Misc/alternative/openkuber-vs-trendlyne"
+            ]
+          },
+          {
+            "group": "Features",
+            "pages": [
+              "/Misc/feats/how-it-works",
+              "/Misc/feats/build-stock-dashboard-google-sheets-india",
+              "/Misc/feats/causal-inference-stock-trading-india",
+              "/Misc/feats/5-reasons-indian-traders-need-google-sheets-plugin"
             ]
           },
           {
             "group": "Pricing",
             "pages": [
-              "/Misc/pricing/1"
-            ]
-          },{
-            "group": "Features",
-            "pages": [
-              "/Misc/feats/1"
+              "/Misc/pricing/pricing"
             ]
           }
         ]
@@ -138,6 +144,7 @@
     ]
   },
   "seo": {
+    "indexing": "all",
     "metatags": {
         "og:image": "/images/hero.png"
     }
