@@ -143,12 +143,79 @@
       "vscode"
     ]
   },
-  "seo": {
-    "indexing": "all",
-    "metatags": {
-        "og:image": "/images/hero.png"
-    }
-},
+"seo": {
+  "indexing": "all",
+  "canonical": "https://openkuber.com",
+  "title": "OpenKuber Docs — AI Reasoning for Indian Market Analytics in Google Sheets",
+  "description": "Trade stocks on AI reasoning, not reactions. OpenKuber brings causal inference and real-time Indian market data directly into Google Sheets.",
+  "keywords": [
+    "Google Sheets stock plugin India",
+    "NSE BSE stock data add-on",
+    "Indian stock analytics Google Workspace",
+    "AI reasoning trading plugin",
+    "causal inference investing",
+    "stock market Google Sheets extension India",
+    "real-time market data Sheets",
+    "AI stock strategy generator",
+    "OpenKuber add-on for Google Sheets",
+    "Indian investors trading automation"
+  ],
+  "metatags": {
+    "og:title": "OpenKuber Docs — AI Reasoning for Indian Market Analytics in Google Sheets",
+    "og:description": "Trade stocks on AI reasoning, not reactions. Built for Indian investors and professionals using Google Sheets.",
+    "og:type": "website",
+    "og:url": "https://openkuber.com",
+    "og:image": "/images/hero.png",
+    "twitter:card": "summary_large_image",
+    "twitter:site": "@Asahi_OpenKuber",
+    "twitter:title": "OpenKuber Docs — AI Reasoning for Indian Market Analytics in Google Sheets",
+    "twitter:description": "OpenKuber helps Indian investors trade on AI reasoning, not reactions — directly within Google Sheets.",
+    "twitter:image": "https://openkuber.com/images/hero.png"
+  },
+  "structuredData": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "name": "OpenKuber",
+        "url": "https://openkuber.com",
+        "logo": "https://openkuber.com/images/hero.png",
+        "sameAs": [
+          "https://x.com/Asahi_OpenKuber",
+          "https://workspace.google.com/marketplace/app/openkuber/228240472818"
+        ]
+      },
+      {
+        "@type": "Product",
+        "name": "OpenKuber Plugin",
+        "image": "https://openkuber.com/images/hero.png",
+        "description": "Google Sheets add-on that applies AI reasoning and causal inference to Indian market data. Trade on reasons, not reactions.",
+        "brand": {
+          "@type": "Brand",
+          "name": "OpenKuber"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://workspace.google.com/marketplace/app/openkuber/228240472818",
+          "priceCurrency": "INR",
+          "price": "499",
+          "availability": "https://schema.org/InStock"
+        }
+      },
+      {
+        "@type": "WebSite",
+        "name": "OpenKuber",
+        "url": "https://openkuber.com",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://openkuber.com/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    ]
+  }
+}
+,
   "footer": {
     "socials": {
       "x": "https://x.com/OpenKuber_Sxnk",
